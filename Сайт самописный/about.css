@@ -1,0 +1,28 @@
+.about{
+    margin: 30px;
+}
+
+.about-h1{
+    text-align: center;
+}
+
+.about p{
+    font-size: 25px;
+    text-indent: 40px;
+}
+
+.about a{
+    text-decoration: none;
+}
+
+.world-lego{
+    width: 50%;
+}
+
+.world{
+    text-align: center;
+}
+
+.delivery-body{
+    margin: 30px;
+}

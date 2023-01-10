@@ -1,0 +1,152 @@
+.form-editor fieldset{
+    border-radius: 10px; 
+    display: flex;
+}
+
+.fieldset-editor{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.fieldset-editor textarea{
+    resize: none;
+}
+
+.fieldset-editor input:not(:last-child), .fieldset-editor textarea, .fieldset-editor select{
+    margin-bottom: 10px;
+}
+
+.fieldset-editor input,.fieldset-editor textarea, .fieldset-editor select{
+    width: 260px;
+}
+
+.fieldset-editor input:not(.fieldset-editor input[type="file"]), .fieldset-editor select{
+    height: 40px;
+    font-size: 25px;
+}
+
+.form-editor{
+    width: 800px;
+}
+
+.div-editor{
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.window-editor{
+    width: 500px;
+    max-width: 500px;
+    border: 1px solid black;
+    height: 550px;
+    margin: 30px;
+    overflow: auto;
+}
+
+.table-editor{
+    display: fixed;
+}
+
+th{
+    background: #777777;
+    color: white;
+}
+
+tr{
+    background-color: lightgray;
+}
+
+.td-id{
+    width: 60px;
+}
+
+.td-title{
+    width:auto;
+    width: 70%;
+}
+
+.td-title1{
+    width: 40%;
+}
+
+.example{
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.update,.delete{
+    text-decoration: none;
+    color: black;
+}
+
+.td-update,.td-delete{
+    width: 10%;
+    height: 2em;
+    text-align: center;
+}
+
+.delete{
+    color: red;
+}
+
+.span-id{
+    display: block;
+    font-size: 20px;
+}
+
+.exit{
+    border: 2px solid red;
+    background-color: rgba(255, 0, 0, 0.386);
+    color: rgb(154, 0, 0);
+    font-size: 20px;
+    padding: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.option{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.option img{
+    height: 20px;
+}
+
+.div-option{
+    position: absolute;
+    top: 110px;
+    right: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.window-option{
+    height: 200px;
+}
+
+.attention{
+    border: 3px solid red;
+    padding: 5px;
+    width: 240px;
+    border-radius: 5px;
+    background-color: rgb(255, 151, 151);
+}
+
+.attention-span{
+    font-weight: bold;
+}
+
+.a{
+    display: none;
+}

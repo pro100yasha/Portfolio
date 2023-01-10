@@ -1,0 +1,52 @@
+.delivery-body{
+    display: flex;
+    justify-content: space-around;
+}
+
+.delivery-box{
+    padding: 50px;
+    border-radius: 20px;
+    background-color: #ededed;
+    box-shadow: 5px 5px 4px 0 gray;
+    transition-duration: 1s;
+}
+
+.delivery-box:hover{
+    transform:scale(1.04);
+    box-shadow: 15px 15px 10px 0 gray;
+}
+
+.type-time{
+    padding-top: 10px;
+    border-top: 1px solid;
+}
+
+.delivery-h3{
+    margin: 0;
+}
+
+.delivery-body .type{
+    font-size: 20px;
+}
+
+.delivery-body .delivery-price{
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.free{
+    color: rgb(3, 195, 3);
+    font-weight: bold;
+}
+
+.not{
+    font-weight: bold;
+}
+
+.delivery-body .delivery-price:not(.not):not(.free)::after{
+    content: ' \20BD';
+}
+
+.delivery-h3::before{
+    content: "\26DF  ";
+}

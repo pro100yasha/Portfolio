@@ -1,0 +1,60 @@
+input{
+    outline: none;
+}
+
+.admin-div{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.fieldset-admin{
+    padding-top: 50px;
+    width: 500px;
+    height: 400px;
+    border-color: #ffc42e;
+    border-radius: 20px;
+    text-align: center; 
+}
+
+.fieldset-admin legend{
+    font-size: 30px;
+}
+
+.admin-div input:not([type="submit"]){
+    height: 60px;
+    width: 400px;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-width: 5px;
+}
+
+.admin-div input:not([type="submit"]):invalid{
+    border-color:red;
+}
+
+.admin-div input:not([type="submit"]):valid{
+    border-color:green ;
+}
+
+.admin-div input[type="submit"]{
+    background-color: #ffc42e;
+    height: 40px;
+    width: 200px;
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.admin-div input[type="submit"]:hover{
+    background-color: #ffc42e;
+    color: #ffffff;
+    border-color: #ffc42e;
+}
+
+.admin-button{
+    border-bottom: 1px solid black;
+}

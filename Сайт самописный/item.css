@@ -1,0 +1,60 @@
+.card{
+    display: flex;
+    margin: 60px;
+}
+
+.card-img{
+    width: 600px;
+    height: 500px;
+    padding-right: 100px;
+}
+
+.card-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.card-price{
+    font-size: 30px;
+    color: #ff0055;
+}
+
+.card-price::after{
+    content: " \20BD";
+}
+
+.card-button{
+    text-decoration: none;
+    background-color: #ffc42e;
+    color: black;
+    padding: 5px 30px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.card-button:hover{
+    color: #ff0055;
+}
+
+.card-description{
+    width: 480px;
+    height: 250px;
+    overflow: auto;
+}
+
+.item-age{
+    display: inline-block;
+    font-size: 15px;
+    background-color: #ffc42e;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.item-age *{
+    position: relative;
+    top: 11px;
+}
